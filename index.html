@@ -5,21 +5,75 @@
 
     <link href="style.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <a href="index.html">Startsida</a>
-    <a href="about.html">About</a>
-    <a href="archive.html">Archive</a>
-    <h1>
-        Välkommen till min blogg! 
-    </h1>
-    <p>Du har just hittat till min blogg. Kul att du är här.</p>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus posuere varius. In hac habitasse platea dictumst. Integer aliquet bibendum fringilla. Duis porttitor orci eget leo vestibulum consequat. Morbi accumsan viverra aliquet. Fusce at maximus tortor, nec porttitor nunc. Etiam justo massa, viverra ut ante vitae, cursus semper dolor.
 
-        Aenean pretium euismod risus blandit aliquet. Vestibulum eu mi sed augue rutrum porta ac a nisi. Morbi porta purus enim, vel elementum leo condimentum eget. Pellentesque ut tincidunt sapien. Aliquam a ornare arcu, et pellentesque est. Sed consectetur leo quis felis egestas vehicula. Nunc et dui sodales, gravida ante ac, tristique massa. Proin in leo sit amet odio tempus egestas. Suspendisse posuere sed neque tristique tempor. Aenean id diam a ipsum molestie tempus. Pellentesque rhoncus mauris eget nisl ultrices posuere. Morbi ex ante, facilisis at tortor ut, pellentesque fringilla erat. Quisque pulvinar purus in ipsum dapibus, ac ornare libero vulputate. Aenean at augue malesuada, blandit velit vel, cursus justo. Morbi bibendum, quam ac iaculis convallis, lectus lorem sagittis purus, id feugiat dui tortor id purus.
+    <header>
+        <h1 class="mainh1">Ludvigs blogg</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="archive.html">Archive</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+        <header>
+       <div class="latestPosts">Latest Posts</div>
+        </header>
+        <div class="latestPostsHeader"></div>
+        <section>
+            <header>
+                <h2>My latest blog post</h2>
+            </header>
+            <a href="">May 1, 2011</a>, Posted by Ludvig
+            
+            <p>
+                Aenean lacinia, sapien vel lacinia varius, nulla magna luctus nisi, scelerisque semper mauris enim eget justo. Morbi in est quis odio bibendum molestie. Quisque bibendum suscipit sem, sit amet rhoncus lorem tempor ut. Nulla lacinia, nibh eu tempus auctor, dolor dolor varius enim, eu suscipit erat magna vel ante.
+            </p>
+         </section>
+            <section>
+            <div class="container">
+                
+                <div class="items">
+                    Div 1
+                </div>
+                <div class="items">
+                    Div 2
+                </div>            
+                <div class="items">
+                    Div 3
+                </div>
+                <div class="items">
+                    Div 4
+                </div>
+            </div>
+
+        </section>
+        <section>
+            
+        </section>
+    </article>
+    </main>
+    <footer>
         
-        Aliquam sed erat diam. Pellentesque vitae libero a mauris placerat venenatis. Fusce commodo sodales lectus, vel feugiat enim ultrices sed. Fusce neque leo, auctor vel arcu quis, pulvinar auctor nunc. Nullam vel pretium purus. Fusce at fermentum diam, id dictum nibh. Etiam et felis vel felis egestas porta. </p>
+        <section class="contact" vocab="http://schema.org/" typeof="LocalBusiness">
+            <h2>Contact us!</h2>
+            <address property="email">
+                <a href="mailto:us@example.com">us@example.com</a>
+            </address>
+            <address property="address" typeof="PostalAddress">
+                <p property="streetAddress">123 Main St., Suite 404</p>
+                <p>
+                    <span property="addressLocality">Yourtown</span>,
+                    <span property="addressRegion">AK</span>,
+                    <span property="postalCode">12345</span>   
+                </p>
+                <p property="addressCountry">United States of America</p>
+            </address>
+        </section>
+    </footer>
 
 </body>
 </html>
