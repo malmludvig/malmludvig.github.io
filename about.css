@@ -1,1 +1,99 @@
-Hello World
+h2{
+
+font-size: 250%;
+padding-top:1.2em;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding-bottom:1,5em;
+
+}
+
+.aboutContainer{
+
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutMiddleContainer{
+
+    width:50px;
+    height:250px;
+    display:inline;
+    float:left;
+}
+
+  .aboutText{
+
+      float:right;     
+}
+  
+.imageBox{
+
+        margin-left: auto;
+        margin-right: auto;
+        float:left;
+        height:250px;
+        width:200px;
+        background-image: url("aboutImg.jpg");
+        background-size:100%;
+        background-repeat: no-repeat;
+        opacity: 1;
+        background-color: white;
+}
+
+.contactLine{
+    
+    padding-top:17em;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .imageBox{
+        margin-left: auto;
+        margin-right: auto;
+        float:none;
+        height:250px;
+        width:200px;
+        background-image: url("aboutImg.jpg");
+        background-size:100%;
+        background-repeat: no-repeat;
+    }
+
+    .aboutText{
+        margin-top: 3em;
+        margin-left:auto;
+        margin-right:auto;
+        width:75%;
+        float:none;
+    }
+
+  p {
+    font-family: verdana;
+    font-size: 100%;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),0px -5px 20px rgb(253, 253, 253); 
+  }
+
+  .aboutContainer{
+
+    width: 100%;
+}
+
+h2{
+
+    padding-top:0.5em;
+
+
+}
+
+.contactLine{
+    
+    padding-top:3em;
+}
+
+}
+
