@@ -28,7 +28,8 @@ right:31px;
 
   .aboutText{
 
-      float:right;     
+      float:right;    
+ 
 }
   
 .imageBox{
@@ -43,6 +44,7 @@ right:31px;
         background-repeat: no-repeat;
         opacity: 1;
         background-color: white;
+
 }
 
 .bottomLineAbout{
@@ -51,6 +53,22 @@ right:31px;
 }
 
 @media only screen and (max-width: 800px) {
+
+
+    .aboutMiddleContainer{
+
+        display:none;
+
+    }
+
+
+
+
+    section {
+        padding-left:0em;
+      }
+
+
 
     .imageBox{
         margin-left: auto;
@@ -69,15 +87,17 @@ right:31px;
         margin-right:auto;
         width:75%;
         float:none;
+
     }
 
   p {
     font-family: verdana;
     font-size: 100%;
-    width:100%;
+    width:90%;
     margin-left: auto;
     margin-right: auto;
     color: rgb(0, 0, 0);text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),0px -5px 20px rgb(253, 253, 253); 
+
   }
 
   .aboutContainer{
@@ -90,7 +110,6 @@ h2{
     padding-top:0.5em;
     position: relative;
     left:2px;
-
 
 }
 
