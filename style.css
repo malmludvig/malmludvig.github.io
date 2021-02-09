@@ -71,9 +71,7 @@ footer {
   height:1.5em;
   border-bottom: 4px solid black;
   background: rgba(0, 0, 0, 0.9);
-  position: fixed;
-  bottom:0px;
-width: 100%;
+
 }
 
 
