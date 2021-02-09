@@ -17,9 +17,10 @@ h3{
 
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10px;
-        height:340px;
-        width:1100px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        height:280px;
+        width:900px;
         background-image: url("cropped.jpg");
         background-size:100%;
         background-repeat: no-repeat;
@@ -42,6 +43,28 @@ main{
 
 }
 
+@media only screen and (max-width: 1200px) {
+
+
+    .imageBox{
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        height:230px;
+        width:350px;
+        background-image: url("cropped2.jpg");
+        background-size:100%;
+        background-repeat: no-repeat;
+        opacity: 1;
+        background-color: white;
+        display: block;
+    }
+    
+}
+
+
+
 @media only screen and (max-width: 800px) {
     
 main{
@@ -60,6 +83,27 @@ h3{
     position:relative;
     left:15px;
 }
+
+.imageBox{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height:215px;
+    width:325px;
+    background-image: url("cropped2.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-color: white;
+    display: block;
+}
+
+
+
+
+
+
 
 }
     
