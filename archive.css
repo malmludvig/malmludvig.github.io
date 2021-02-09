@@ -1,24 +1,29 @@
 h3{
 
     font-size: 250%;
-    padding-top:1.2em;
+    padding-top:1.0em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-bottom:1,5em;
     font-family: verdana;
-    padding-right:2.7em;
+    padding-right:0.5em;
 
     }
 
-    nav {
-        font-size: 140%;
-        text-align: center;
-        position:relative;
-        margin-right:auto;
-        margin-left:auto;
-        top:0.4em;
-        right:4.7em;
-        font-family: verdana;
+@media only screen and (max-width: 800px) {
+        .container {
+
+        flex-direction: column;
+        color:black;
     }
+
+h3{
+    padding-top:0.1em;
+
+    position:relative;
+    left:15px;
+}
+
+}
     

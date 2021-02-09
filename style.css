@@ -31,52 +31,20 @@ nav {
     margin-right:auto;
     margin-left:auto;
     top:0.4em;
-    right:4.0em;
+    right:4.9em;
     font-family: verdana;
 }
 
 footer{
   font-size: 140%;
   font-family: verdana;
-  padding-top:1em;
-}
-
-.centerImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  
+  padding-top:0.5em;
 }
 
 section {
   padding-left:5em;
 }
 
-
-.contact{
-    margin:auto;
-}
-
-.latestPosts{
-  font-size: 190%;
-  width: 9em;
-  height: 1.7em;
-  line-height: 50px;
-  white-space: nowrap;
-  background-color: rgb(154, 205, 253);
-  margin-right:auto;
-  margin-left:auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  box-shadow:0px 0px 0px 0.5px black inset;
-  border-radius: 7px;
-  font-weight: bold;
-  font-family: verdana;
-
-}
 
 .latestPostsLine{
   border-bottom: 4px solid black;
@@ -86,17 +54,6 @@ section {
   border-radius: 8px;
   margin-bottom: 3rem;
 
-}
-
-.contactLine{
-  border-bottom: 4px solid black;
-  width:85%;
-  margin-right:auto;
-  margin-left:auto;
-  border-radius: 8px;
-  margin-top: 3rem;
-  margin-bottom: 6rem;
-  
 }
 
 .mainh1 {
@@ -111,10 +68,14 @@ section {
 
 footer {
   border-top: 4px solid black;
-  height:2.5em;
+  height:1.5em;
   border-bottom: 4px solid black;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  bottom:0px;
+width: 100%;
 }
+
 
   p {
     font-family: verdana;
@@ -133,6 +94,22 @@ footer {
 .items {
 
     display: inline;
+}
+
+.footerLinks {
+  position: relative;
+  left:1em;
+}
+
+.bottomLine{
+  border-bottom: 4px solid black;
+  width:85%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius: 8px;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  
 }
 
   @media only screen and (max-width: 1200px) {
@@ -202,11 +179,6 @@ footer {
     }
   }
 
-  .footerLinks {
-    position: relative;
-    left:1em;
-
-  }
 
   
   

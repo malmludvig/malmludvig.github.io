@@ -1,11 +1,13 @@
 h2{
 
 font-size: 250%;
-padding-top:1.2em;
+padding-top:1.14em;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
 padding-bottom:1,5em;
+position: relative;
+right:31px;
 
 }
 
@@ -43,7 +45,7 @@ padding-bottom:1,5em;
         background-color: white;
 }
 
-.contactLine{
+.bottomLineAbout{
     
     padding-top:17em;
 }
@@ -86,11 +88,13 @@ padding-bottom:1,5em;
 h2{
 
     padding-top:0.5em;
+    position: relative;
+    left:2px;
 
 
 }
 
-.contactLine{
+.bottomLineAbout{
     
     padding-top:3em;
 }
